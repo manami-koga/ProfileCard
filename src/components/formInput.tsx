@@ -5,7 +5,7 @@ import styles from "../styles/UserCard.module.css"
 export const FormInput =(Props:UserType)=>{
     const {name,email,about}=Props;
     return(
-        <>
+        
         <div className={styles.card}>
         <img src={thumbnail} alt="ユーザ写真"/>
         <div className={styles.userInfo}>
@@ -14,6 +14,6 @@ export const FormInput =(Props:UserType)=>{
         </div>
         <p className={styles.about}>{about}</p>
         </div>
-        </>
+        
     )
 }

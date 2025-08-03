@@ -1,6 +1,6 @@
 import './App.css';
 import "../src/styles/UserCard.module.css"
-import { FormInput } from './components/fromInput';
+import { FormInput } from './components/formInput';
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 
